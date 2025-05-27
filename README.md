@@ -11,7 +11,7 @@
 
 ## List Item Anatomy
 
-```
+```html
 <li>
     <a href="https://cara.app/explore" target="_blank" class="lesson-item" data-title="Lesson 10 - Drawing">
         <img src="./images/icon.png" class="icon" alt="Lesson 10 - Drawing" />
@@ -53,3 +53,5 @@ root (cymk8.github.io)
   - Use `override.css` for css if you can't compile/rebuild sass
 - Function
   - `js.js` this is where js functionality is in
+- Image
+  - Images go in the images folder
