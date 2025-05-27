@@ -4,7 +4,7 @@
 <head>
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>Lesson</title>
+    <title>Lesson: Categories</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
 
     <!-- BS -->
@@ -23,12 +23,47 @@
 </head>
 
 <body>
-    <div class="lesson-type my-5 container">
-        <!-- TRACK -->
-        <div class="lesson-track">
-            <h2>Painting</h2>
+    <div class="my-5 container">
+        <h1>All Lessons</h1>
 
+        <div class="lesson my-5 container">
+            <div class="input-group mb-3">
+                <input id="search-filter" onkeyup="filterGridItems()" type="text" class="form-control"
+                    placeholder="Search Lesson" aria-label="Search" />
+            </div>
             <ul class="lesson-grid">
+
+
+                <li>
+                    <a href="https://cara.app/explore" target="_blank" class="lesson-item"
+                        data-title="Lesson 10 - Drawing">
+                        <img src="./images/icon.png" class="icon" alt="Lesson 10 - Drawing" />
+                        <span class="title">Lesson 10 - Drawing</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#" target="_blank" class="lesson-item" data-title="Lesson 4 - Drawing">
+                        <img src="./images/icon.png" class="icon" alt="Lesson 4 - Drawing" />
+                        <span class="title">Lesson 4 - Drawing</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#" target="_blank" class="lesson-item" data-title="Lesson 5 - Drawing">
+                        <img src="./images/icon.png" class="icon" alt="Lesson 5 - Drawing" />
+                        <span class="title">Lesson 5 - Drawing</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#" target="_blank" class="lesson-item" data-title="Lesson 6 - Drawing">
+                        <img src="./images/icon.png" class="icon" alt="Lesson 6 - Drawing" />
+                        <span class="title">Lesson 6 - Drawing</span>
+                    </a>
+                </li>
+
+
 
                 <li>
                     <a href="#" target="_blank" class="lesson-item" data-title="Lesson 1 - Acrylic Painting">
@@ -51,67 +86,7 @@
                     </a>
                 </li>
 
-                <li class="more-link">
-                    <a href="all.html" class="lesson-item">
-                        <span class="title">More</span>
-                    </a>
-                </li>
-            </ul>
-        </div>
-        <!-- END TRACK -->
 
-        <!-- TRACK -->
-        <div class="lesson-track">
-            <h2>Drawing</h2>
-
-            <ul class="lesson-grid">
-
-            
-                <li> 
-                    <a href="https://cara.app/explore" target="_blank" class="lesson-item"
-                        data-title="Lesson 10 - Drawing">
-                        <img src="./images/icon.png" class="icon" alt="Lesson 10 - Drawing" />
-                        <span class="title">Lesson 10 - Drawing</span>
-                    </a>
-                </li> 
-                
-                <li>
-                    <a href="#" target="_blank" class="lesson-item" data-title="Lesson 4 - Drawing">
-                        <img src="./images/icon.png" class="icon" alt="Lesson 4 - Drawing" />
-                        <span class="title">Lesson 4 - Drawing</span>
-                    </a>
-                </li>
-
-                <li>
-                    <a href="#" target="_blank" class="lesson-item" data-title="Lesson 5 - Drawing">
-                        <img src="./images/icon.png" class="icon" alt="Lesson 5 - Drawing" />
-                        <span class="title">Lesson 5 - Drawing</span>
-                    </a>
-                </li>
-
-                <li>
-                    <a href="#" target="_blank" class="lesson-item" data-title="Lesson 6 - Drawing">
-                        <img src="./images/icon.png" class="icon" alt="Lesson 6 - Drawing" />
-                        <span class="title">Lesson 6 - Drawing</span>
-                    </a>
-                </li>
-
-                <li class="more-link">
-                    <a href="all.html" class="lesson-item">
-                        <span class="title">More</span>
-                    </a>
-                </li>
-
-            </ul>
-        </div>
-        <!-- END TRACK -->
-
-
-        <!-- TRACK -->
-        <div class="lesson-track">
-            <h2>Sculpture</h2>
-
-            <ul class="lesson-grid">
 
                 <li>
                     <a href="#" target="_blank" class="lesson-item" data-title="Lesson 3 - Sculpture">
@@ -134,14 +109,10 @@
                     </a>
                 </li>
 
-                <li class="more-link">
-                    <a href="all.html" class="lesson-item">
-                        <span class="title">More</span>
-                    </a>
-                </li>
+
             </ul>
+
         </div>
-        <!-- END TRACK -->
 
     </div>
 </body>
